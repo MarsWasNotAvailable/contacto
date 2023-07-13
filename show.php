@@ -1,7 +1,11 @@
 <?php
     session_start();
 
-    // var_dump($_SESSION);
+    if (!isset($_SESSION['CurrentUser']))
+    {
+        header("Location: " . 'index.php');
+        die();
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">

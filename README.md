@@ -31,5 +31,5 @@ Le livrable attendu pour cette activité est un dépôt GitHub contenant le code
 * Go to the project index.php page
 * There are visual hints on the app, but the steps are :
  > * You need to login with an email and password; or register to have those
- > * Then the Add (to be able to add a contact) and Show (to see the current contacts) pages will be available
+ > * Then the Add and Show pages will be available to respectively add and display the contacts
  > * The Logout button on the upper right portion of the window allow to destroy the session. Login will be required to access the data again.

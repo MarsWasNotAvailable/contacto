@@ -164,7 +164,7 @@ nav .navigational.selected {
 
         position: absolute;
         top: 60px;
-        left: 82%;
+        left: 77%;
 
         background-color: #a4b6ff85;
         border-radius: 13px;
@@ -179,7 +179,7 @@ nav .navigational.selected {
 
     #HamLinks.Visible {
         display: flex;
-        width: 16%;
+        width: 20%;
     }
 }
 </style>

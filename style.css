@@ -174,7 +174,7 @@ section.gridlayout form {
 @media (max-width: 900px) {
 
     section.gridlayout {
-        grid-template-columns: 100%;
+        grid-template-columns: 90%;
     }
 
     section.gridlayout form {
@@ -216,3 +216,14 @@ section.gridlayout form {
 .controller span {
     display: inline-flex;
 }
+
+
+@media (max-width: 900px) {
+
+    .controller, .container {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+}
+
