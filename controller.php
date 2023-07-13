@@ -20,14 +20,12 @@
 
         if (isset($_POST['Intention']))
         {
-            // var_dump($_POST);
-
             switch ($_POST['Intention']) {
                 case 'Signup':
                     $Values = array(
                         'mail' => $_POST['mail'],
                         'password' => $_POST['password'],
-                        'role' => 'EndUser',
+                        'role' => 'Admin',
                         'current_ip' => $_SERVER['REMOTE_ADDR']
                     );
 
@@ -155,14 +153,6 @@
                     break;
             }
         }
-
-        //TODO: I'm thinking the Select request could come here, BUT realistically, there's too many different read request
-        else if (isset($_GET['Intention']))
-        {
-
-
-        }
-
     ?>
 
 </body>

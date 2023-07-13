@@ -23,7 +23,7 @@
     <section id="Rent" class="container">
         <h2>Insert the new contact info: </h2>
 
-        <form method="POST" action="controller.php" class="RentedRoomCards">
+        <form method="POST" action="controller.php" class="controller">
         <label for="name_last">Last Name:</label>
         <input contenteditable="true" type="text" name="name_last" placeholder="Insert last name here" required >
         <label for="name_first">First Name:</label>

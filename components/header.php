@@ -83,7 +83,7 @@
 #NavigationBar {
     display: flex;
     background-color: transparent;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid white;
     align-items: center;
 }
 

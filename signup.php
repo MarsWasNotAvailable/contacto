@@ -26,7 +26,7 @@
     ?>
 
     <section class="container">
-        <form action="./controller.php" method="POST">
+        <form class="authentification" action="./controller.php" method="POST">
             <?php
                 if (isset($_SESSION['HasFailedSignedUp']))
                 {

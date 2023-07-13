@@ -24,7 +24,7 @@
     ?>
 
     <section class="container">
-        <form action="./controller.php" method="POST">
+        <form class="authentification" action="./controller.php" method="POST">
             <input name="Intention" value="Login" type="hidden"></input>
 
             <label for="mail">Mail</label>

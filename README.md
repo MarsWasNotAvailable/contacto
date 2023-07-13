@@ -19,6 +19,11 @@ Le livrable attendu pour cette activité est un dépôt GitHub contenant le code
 * Gestion de la base de données : La base de données doit être correctement conçue et utilisée pour stocker les contacts de manières sécurisée et efficace.
 * Interface utilisateur conviviale : L'interface utilisateur doit être esthétiquement agréable, réactive et offrir une expérience utilisateur fluide.
 
+## Functionalities:
+
+* Can create users to be able to manage the contacts.
+* Can Create, Read, Update and Delete the contacts.
+
 ### Steps to utilise the app:
 
 * Import the database from the 'ref' folder: contacto.sql
@@ -26,6 +31,5 @@ Le livrable attendu pour cette activité est un dépôt GitHub contenant le code
 * Go to the project index.php page
 * There are visual hints on the app, but the steps are :
  > * You need to login with an email and password; or register to have those
- > * Then the Showcase (to be able to rent a room) and Rented (to see the currently rented rooms) pages will be available
+ > * Then the Add (to be able to add a contact) and Show (to see the current contacts) pages will be available
  > * The Logout button on the upper right portion of the window allow to destroy the session. Login will be required to access the data again.
-

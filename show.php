@@ -36,7 +36,7 @@
 
                     foreach ($Result as $Key => $Value)
                     {
-                        echo '<form method="POST" action="controller.php" class="RentedRoomCards">';
+                        echo '<form method="POST" action="controller.php" class="controller">';
 
                         echo '<input name="idContact" value="' . $Value['idContact'] .'" type="hidden"></input>';
                         
